@@ -1,3 +1,17 @@
+* {padding: 0;
+    margin: 0;
+    }
+    
+   main {
+        width: 100%;
+        height: 500px;
+        border: 8px solid violet;
+    }
+.section-figure__img {
+    padding: 5px;
+    border: 3px solid brown;
+}    
+
 .main-nav {
     font-size: 10px;
     margin-top: 10px;
@@ -24,4 +38,4 @@
     .main-nav__item a::after {
         content:" | ";
     }
-
+ 
