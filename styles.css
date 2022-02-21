@@ -5,13 +5,13 @@
 }
 html 
 {
+    background-image: url('https://www.publicdomainpictures.net/pictures/60000/velka/old-paper-texture-background.jpg');
     font-size:62.5%;
 }
 .header-div {
 text-align:center;
 width:100%; 
 display:inline-block;
-background-color: lightpink;
 }
 .header-div__img1 {
 display:inline-block;height: 70px;
@@ -25,7 +25,6 @@ align-content: center;}
 .nav{
 font-size: 3rem;
 list-style: none;
-background-color:crimson;}
 .nav__item 
 {display: inline-block;
 }
@@ -43,11 +42,13 @@ text-decoration: none;}
 {color:red;}
 .nav__item a::after 
 {content:"  | ";}
-main {background-color:rgb(231, 150, 207);
+main {
+     border-bottom: sienna;
+    border-bottom-style:double;
+    border-bottom-width: 4px;
 width:100%;display:inline-block;position:relative;
 }
 .div_aside {
-background-color:pink;
 display: inline-block;
 position:relative;
 height: 700px;
@@ -97,12 +98,12 @@ footer {
    display:inline-block;
    position:relative;
    padding: 20px; 
-   background-color: lightpink;
    height: 60px;
    width: 100%;
    font-size: 1.6rem;
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-align: center;
+   border- 
  }
 
 
